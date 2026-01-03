@@ -1,0 +1,270 @@
+body {
+  background-color: #f8fafc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+   /* HERO SECTION */
+.hero-section {
+  min-height: 70vh;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #ffffff;
+}
+
+.hero-text {
+  max-width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.hero-btn {
+  background-color: #ffffff;
+  color: #4f46e5;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+   /* EVENT CARD STYLING */
+.event-card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Button style matches hero background */
+.register-btn {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 10px 22px;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background: linear-gradient(135deg, #4338ca, #4f46e5);
+  color: #fff;
+}
+/* serchbar */
+.featured-heading {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* =========================
+   NAVBAR STYLING
+   ========================= */
+.main-navbar {
+  background-color: #ffffff;
+}
+
+/* Brand Gradient E */
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.brand-e {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Nav Links Styling */
+.nav-link-custom {
+  color: #4b5563; 
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #4f46e5; 
+}
+
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .nav-link-custom {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+/*CONTACT PAGE*/
+.contact-hero-section {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  text-align: center;
+}
+
+.contact-form .form-control {
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(99,102,241,0.25);
+  border-color: #6366f1;
+}
+
+/* navlinks */
+.nav-link-custom {
+  cursor: pointer;
+  color: #4b5563;
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #4f46e5;
+}
+/* NAVBAR LINKS REMOVE UNDERLINE */
+.nav-link-custom {
+  cursor: pointer;
+  color: #4b5563; 
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  text-decoration: none !important; 
+}
+
+.nav-link-custom:hover {
+  color: #4f46e5;
+  text-decoration: none !important; 
+}
+
+/*  FOOTER STYLING */
+
+.footer-section {
+  background: linear-gradient(135deg, #4f46e5, #6366f1); /* same as hero */
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.footer-section h5 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section p {
+  color: #e0e7ff;
+  margin-bottom: 0.25rem;
+}
+
+.footer-section a {
+  color: #e0e7ff;
+  text-decoration: none;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fbbf24; 
+}
+
+.footer-section .social-icons a {
+  margin-right: 1rem;
+}
+
+.footer-section .text-md-end {
+  text-align: right; 
+}
+/* Footer paragraph under Eventify */
+.footer-about-text {
+  font-size: 0.95rem;
+  line-height: 1.6; 
+  max-width: 90%; 
+  margin-top: 0.5rem;
+  color: #e0e7ff; 
+}
+
+/* Social icons spacing */
+.footer-section .social-icons a {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  color: #fbbf24;  
+}
+/* ===== QUICK LINKS ===== */
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+}
+
+/* Override footer anchor size for links only */
+.footer-links a {
+  font-size: 0.95rem;         
+  color: #e0e7ff;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fbbf24;
+  transform: translateX(4px);  
+}
+/* ===== CONTACT US ===== */
+
+.footer-contact-text {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #e0e7ff;
+}
+
+.footer-contact-text svg {
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+
+  /* Contact Us full center on mobile */
+  .footer-section .col-md-4:last-child {
+    text-align: center;
+  }
+
+  .footer-contact-text {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer-section .text-md-end,
+  .footer-section .mb-md-0 {
+    text-align: center !important; 
+    margin-bottom: 1.5rem !important;
+  }
+
+  .footer-section .social-icons {
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+  }
+}
